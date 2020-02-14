@@ -1,0 +1,68 @@
+{
+  "entries": {
+    "brew": {
+      "vice": {
+        "version": "3.4",
+        "bottle": {
+          "cellar": ":any",
+          "prefix": "/usr/local",
+          "files": {
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/vice-3.4.catalina.bottle.tar.gz",
+              "sha256": "2482ee0bd13df1eb97fb420443b9bdeb7926e625c83a96404791fdcd8ab99f56"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/vice-3.4.mojave.bottle.tar.gz",
+              "sha256": "00f63203afc84abacd468d5a012fd308a8adbca29ba87b01a2a8d0ac2ac3ad91"
+            },
+            "high_sierra": {
+              "url": "https://homebrew.bintray.com/bottles/vice-3.4.high_sierra.bottle.tar.gz",
+              "sha256": "236aacd38e7edec5cace94942ccb31ba77f64a6b062dfa35585a5bb87a6206ec"
+            }
+          }
+        }
+      },
+      "acme": {
+        "version": "0.96.4",
+        "bottle": {
+          "cellar": ":any_skip_relocation",
+          "prefix": "/usr/local",
+          "files": {
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/acme-0.96.4.catalina.bottle.tar.gz",
+              "sha256": "2347f64662e48b99e1d200d9c9a1fa8442a4913c51fd87a4859ea70f7ddf23bd"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/acme-0.96.4.mojave.bottle.tar.gz",
+              "sha256": "529a7a699305f67a3443adcbd432a53690d314730401e970502222d2a2d7637b"
+            },
+            "high_sierra": {
+              "url": "https://homebrew.bintray.com/bottles/acme-0.96.4.high_sierra.bottle.tar.gz",
+              "sha256": "95a02b54ddd935e3681b603617cdb428e3c0998697e83b5bacd231d0d662004f"
+            },
+            "sierra": {
+              "url": "https://homebrew.bintray.com/bottles/acme-0.96.4.sierra.bottle.tar.gz",
+              "sha256": "3fea7e2943215c6e6ad2fa5be5e022d212b7fa55403a45f3b01a4bf5beba0061"
+            },
+            "el_capitan": {
+              "url": "https://homebrew.bintray.com/bottles/acme-0.96.4.el_capitan.bottle.tar.gz",
+              "sha256": "c4dca010cb942fb1336b49ce754c2b90d61766cce34838214489bc64207f916c"
+            }
+          }
+        }
+      }
+    }
+  },
+  "system": {
+    "macos": {
+      "catalina": {
+        "HOMEBREW_VERSION": "2.2.5-48-ge7fd14d",
+        "HOMEBREW_PREFIX": "/usr/local",
+        "Homebrew/homebrew-core": "57524a9b4d1c4b883b01e743fb6ae01225c21cec",
+        "CLT": "",
+        "Xcode": "11.3.1",
+        "macOS": "10.15.3"
+      }
+    }
+  }
+}
